@@ -1,0 +1,26 @@
+# Registro de ventas de aguas frescas
+
+**Alumno:** Zahid Serna Cebrero
+**Matrícula:** 20132940
+
+Programa de consola en Java para registrar las ventas de aguas frescas de un puesto llamado **Aguas frescas La Michoacana**. Los sabores disponibles son fruta, horchata, limón, maracuyá y piña colada.
+
+## Funciones
+
+- Registrar una venta con sabor, cantidad de vasos y precio por vaso.
+- Asignar un folio a cada venta.
+- Eliminar una venta por su folio.
+- Mostrar las ventas registradas.
+- Consultar un resumen con la cantidad de ventas, los vasos vendidos y los ingresos totales.
+
+El precio se captura en cada venta para que pueda ajustarse al precio que se use en el proyecto.
+
+## Implementación de la lista ligada
+
+La clase `Nodo` guarda un objeto `Venta` y una referencia al siguiente nodo. La clase `ListaVentas` administra los nodos y permite agregar, eliminar, recorrer y calcular los ingresos. No se utiliza `LinkedList` de Java.
+
+La operación extra para la rúbrica es el cálculo de ingresos totales; también se cuenta la cantidad de vasos vendidos.
+
+
+
+git init
